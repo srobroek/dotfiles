@@ -1,0 +1,12 @@
+# Created by newuser for 5.8
+
+cd ~
+
+for conf in $HOME/.config/dotfiles/**/init-*.zsh; source "${conf}"
+for conf in $HOME/.config/dotfiles/**/source-*.zsh; source "${conf}"
+unset conf
+
+autoload -U +X bashcompinit && bashcompinit
+autoload -Uz compinit && compinit
+complete -o nospace -C /home/linuxbrew/.linuxbrew/Cellar/terraform/1.1.8/bin/terraform terraform
+source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
