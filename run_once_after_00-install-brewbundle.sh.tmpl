@@ -4,7 +4,4 @@
 echo "installing brew bundle"
 echo "hash: {{ include $brewFilePath |sha256sum }}"
 brew bundle
-if brew autoupdate status | grep running > /dev/null
-  brew autoupdate start
-end
 {{ end -}}

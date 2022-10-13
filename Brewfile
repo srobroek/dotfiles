@@ -33,7 +33,6 @@ cask "slack"
 cask "spotify"
 cask "alfred"
 cask "gitkraken"
-#brew "gitleaks"
 cask "macdown"
 cask "insomnia"
 cask "expressions"
@@ -45,7 +44,7 @@ brew "zsh"
 brew "zsh-autosuggestions"
 brew "fish"
 brew "fisher"
-
+brew "awscli"
 
 
 #Software development

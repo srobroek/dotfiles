@@ -1,1 +1,1 @@
-set -gx CC=gcc
+set -gx CC gcc
