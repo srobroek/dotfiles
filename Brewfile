@@ -33,17 +33,18 @@ cask "slack"
 cask "spotify"
 cask "alfred"
 cask "gitkraken"
-cask "gitleaks"
+#brew "gitleaks"
 cask "macdown"
 cask "insomnia"
 cask "expressions"
-
+brew "thefuck"
 
 #Shell
 brew "starship"
 brew "zsh"
 brew "zsh-autosuggestions"
-
+brew "fish"
+brew "fisher"
 
 
 
