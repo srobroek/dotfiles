@@ -1,2 +1,2 @@
 alias tf='terraform'
-alais tg='terragrunt'
+alias tg='terragrunt'

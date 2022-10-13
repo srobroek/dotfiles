@@ -1,0 +1,8 @@
+{{ if eq .chezmoi.os "darwin" -}}
+#!/usr/bin/env fish
+{{ $brewFilePath := "Brewfile" }}
+echo "installing brew bundle"
+echo "hash: {{ include $brewFilePath |sha256sum }}"
+brew bundle
+brew autoupdate start
+{{ end -}}
