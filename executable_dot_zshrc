@@ -1,6 +1,6 @@
 # Created by newuser for 5.8
 
-cd ~
+#cd ~
 
 for conf in $HOME/.config/dotfiles/**/init-*.zsh; source "${conf}"
 for conf in $HOME/.config/dotfiles/**/source-*.zsh; source "${conf}"
